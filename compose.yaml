@@ -1,0 +1,12 @@
+﻿services:
+  teplate.api:
+    image: teplate.api
+    build:
+      context: .
+      dockerfile: Teplate.API/Dockerfile
+
+  template.api:
+    image: template.api
+    build:
+      context: .
+      dockerfile: src/Template.API/Dockerfile
